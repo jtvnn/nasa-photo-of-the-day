@@ -18,12 +18,8 @@ useEffect(() => {
 
   return (
     <div className="App">
-      <p>
-     
-      </p>
       <Image imgURL={apod.hdurl}/>
-      <Details title={apod.title} explanation={apod.explanation}/>
-
+      <Details title={apod.title} explanation={apod.explanation} copyright={apod.copyright}/>
     </div>
   );
 }
