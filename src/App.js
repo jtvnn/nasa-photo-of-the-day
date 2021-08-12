@@ -19,7 +19,8 @@ useEffect(() => {
   return (
     <div className="App">
       <Image imgURL={apod.hdurl}/>
-      <Details title={apod.title} explanation={apod.explanation} copyright={apod.copyright}/>
+      <Details title={apod.title} explanation={apod.explanation} copyright={apod.copyright}
+      date={apod.date}/>
     </div>
   );
 }
